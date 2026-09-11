@@ -17,10 +17,20 @@ A reference census of FDA Phase III drug submissions (last ~15 years), documenti
 ### 1. Pembrolizumab (Keytruda) — BLA 125514/S-012
 
 **Sponsor:** Merck Sharp & Dohme LLC
+
 **Indication approved:** First-line treatment of metastatic non-small cell lung cancer (NSCLC), tumors with PD-L1 tumor proportion score (TPS) ≥50%, no EGFR/ALK aberrations
+
 **Approval date:** October 24, 2016
+
 **Pivotal trial:** KEYNOTE-024 (Merck protocol MK-3475-024), NCT02142738
-**Keywords:** *Design:* randomized, open-label, active-controlled, crossover-permitted, biomarker-selected population · *Endpoints:* PFS (BICR, primary), OS (secondary), ORR (secondary) · *Primary analysis:* stratified log-rank test, stratified Cox proportional-hazards model, Miettinen-Nurminen method (ORR CI) · *Multiplicity:* fixed-sequence step-down hierarchy (ORR→PFS→OS) · *Interim/alpha-spending:* group-sequential design, Hwang-Shih-DeCani alpha-spending function, non-binding futility (beta-spending)
+
+**Keywords:**
+
+- *Design:* randomized, open-label, active-controlled, crossover-permitted, biomarker-selected population
+- *Endpoints:* PFS (BICR, primary), OS (secondary), ORR (secondary)
+- *Primary analysis:* stratified log-rank test, stratified Cox proportional-hazards model, Miettinen-Nurminen method (ORR CI)
+- *Multiplicity:* fixed-sequence step-down hierarchy (ORR→PFS→OS)
+- *Interim/alpha-spending:* group-sequential design, Hwang-Shih-DeCani alpha-spending function, non-binding futility (beta-spending)
 
 **Trial design & endpoints**
 
@@ -39,7 +49,7 @@ A reference census of FDA Phase III drug submissions (last ~15 years), documenti
 - Package Insert / Label (2016, reflecting S-012) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125514s012lbl.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT02142738
 - Protocol + SAP (Merck, "MK-3475-024-11 Final Protocol," 20-Dec-2017; Section 8 is the SAP) — https://cdn.clinicaltrials.gov/large-docs/38/NCT02142738/Prot_SAP_000.pdf
-- Pivotal publication: Reck M, et al. "Pembrolizumab versus Chemotherapy for PD-L1–Positive Non–Small-Cell Lung Cancer." *N Engl J Med.* 2016;375:1823-1833. https://www.nejm.org/doi/full/10.1056/NEJMoa1606774
+- Pivotal publication: Reck M, et al. "Pembrolizumab versus Chemotherapy for PD-L1–Positive Non–Small-Cell Lung Cancer." *N Engl J Med.* 2016;375:1823-1833. [DOI](https://doi.org/10.1056/NEJMoa1606774), [PubMed](https://pubmed.ncbi.nlm.nih.gov/27718847/), [Google Scholar](https://scholar.google.com/scholar?q=Pembrolizumab%20versus%20Chemotherapy%20for%20PD-L1-Positive%20Non-Small-Cell%20Lung%20Cancer)
 
 **Other resources**
 
@@ -69,10 +79,21 @@ The label's Table 9 also documents the primary PFS result (HR 0.50, 95% CI 0.37-
 ### 2. Osimertinib (Tagrisso) — NDA 208065/S-008
 
 **Sponsor:** AstraZeneca Pharmaceuticals LP
+
 **Indication approved:** First-line treatment of metastatic NSCLC with EGFR exon 19 deletions or exon 21 (L858R) mutations
+
 **Approval date:** April 18, 2018
+
 **Pivotal trial:** FLAURA (AstraZeneca Study D5160C00007, osimertinib coded AZD9291), NCT02296125
-**Keywords:** *Design:* randomized, double-blind, active-controlled, crossover-permitted, biomarker-selected population · *Endpoints:* PFS (investigator-assessed, primary), OS (key secondary), CNS PFS, ORR/DoR/DCR, PRO/HRQoL (EORTC QLQ) · *Primary analysis:* stratified log-rank test (Breslow method for ties), HR from log-rank U/V statistics, Cox proportional-hazards model (subgroups, Efron method for ties) · *Multiplicity:* fixed-sequence hierarchy (PFS→OS→CNS PFS) · *Interim/alpha-spending:* group-sequential design, Lan-DeMets alpha-spending function approximating O'Brien-Fleming · *Missing data/bias:* RPSFT, IPCW (OS crossover adjustment), ascertainment bias, evaluation-time bias, attrition bias, quantitative/qualitative interaction testing (Gail-Simon)
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, active-controlled, crossover-permitted, biomarker-selected population
+- *Endpoints:* PFS (investigator-assessed, primary), OS (key secondary), CNS PFS, ORR/DoR/DCR, PRO/HRQoL (EORTC QLQ)
+- *Primary analysis:* stratified log-rank test (Breslow method for ties), HR from log-rank U/V statistics, Cox proportional-hazards model (subgroups, Efron method for ties)
+- *Multiplicity:* fixed-sequence hierarchy (PFS→OS→CNS PFS)
+- *Interim/alpha-spending:* group-sequential design, Lan-DeMets alpha-spending function approximating O'Brien-Fleming
+- *Missing data/bias:* RPSFT, IPCW (OS crossover adjustment), ascertainment bias, evaluation-time bias, attrition bias, quantitative/qualitative interaction testing (Gail-Simon)
 
 **Trial design & endpoints**
 
@@ -91,7 +112,7 @@ The label's Table 9 also documents the primary PFS result (HR 0.50, 95% CI 0.37-
 - Package Insert / Label (2018, S-008) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/208065s008lbl.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT02296125
 - Statistical Analysis Plan (Study D5160C00007, Edition 3.0, 28-Feb-2017) — https://cdn.clinicaltrials.gov/large-docs/25/NCT02296125/SAP_001.pdf
-- Pivotal publication: Soria JC, et al. "Osimertinib in Untreated EGFR-Mutated Advanced Non–Small-Cell Lung Cancer." *N Engl J Med.* 2018;378:113-125.
+- Pivotal publication: Soria JC, et al. "Osimertinib in Untreated EGFR-Mutated Advanced Non–Small-Cell Lung Cancer." *N Engl J Med.* 2018;378:113-125. [DOI](https://doi.org/10.1056/NEJMoa1713137), [PubMed](https://pubmed.ncbi.nlm.nih.gov/29151359/), [Google Scholar](https://scholar.google.com/scholar?q=Osimertinib%20in%20Untreated%20EGFR-Mutated%20Advanced%20Non-Small-Cell%20Lung%20Cancer)
 
 **Other resources**
 
@@ -120,10 +141,21 @@ The label's Table 9 also documents the primary PFS result (HR 0.50, 95% CI 0.37-
 ### 3. Olaparib (Lynparza) — NDA 208558 (original approval)
 
 **Sponsor:** AstraZeneca Pharmaceuticals LP
+
 **Indication approved:** Maintenance treatment of recurrent epithelial ovarian, fallopian tube, or primary peritoneal cancer in complete/partial response to platinum-based chemotherapy (≥2 prior platinum-containing lines), irrespective of BRCA status
+
 **Approval date:** August 17, 2017
+
 **Pivotal trial:** SOLO-2/ENGOT-Ov21, NCT01874353 (supportive: Study 19, NCT00753545)
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, biomarker-selected population (germline BRCA), primary endpoint amended mid-trial (BICR→investigator) · *Endpoints:* PFS-Inv (primary), PFS2 & OS (hierarchical secondary), HRQoL (FACT-O) · *Primary analysis:* stratified log-rank test, Kaplan-Meier estimation (Brookmeyer-Crowley CI) · *Multiplicity:* two-stage hierarchical testing · *Interim/alpha-spending:* two-stage group-sequential design, Haybittle-Peto boundary (final OS), Bespoke spending function (Stone 2010, PFS2 retest) · *Missing data/bias:* ascertainment bias, evaluation-time bias, attrition bias, deviation bias sensitivity analyses
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, biomarker-selected population (germline BRCA), primary endpoint amended mid-trial (BICR→investigator)
+- *Endpoints:* PFS-Inv (primary), PFS2 & OS (hierarchical secondary), HRQoL (FACT-O)
+- *Primary analysis:* stratified log-rank test, Kaplan-Meier estimation (Brookmeyer-Crowley CI)
+- *Multiplicity:* two-stage hierarchical testing
+- *Interim/alpha-spending:* two-stage group-sequential design, Haybittle-Peto boundary (final OS), Bespoke spending function (Stone 2010, PFS2 retest)
+- *Missing data/bias:* ascertainment bias, evaluation-time bias, attrition bias, deviation bias sensitivity analyses
 
 **Trial design & endpoints**
 
@@ -141,7 +173,7 @@ The label's Table 9 also documents the primary PFS result (HR 0.50, 95% CI 0.37-
 - Package Insert / Label — https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208558s000lbl.pdf
 - FDA Multi-Discipline Review (includes the Statistical Review by Stella Karuri / Jason Schroeder, Division of Biometrics) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/208558Orig1s000MultidisciplineR.pdf
 - ClinicalTrials.gov record (SOLO-2) — https://clinicaltrials.gov/study/NCT01874353
-- Pivotal publication: Pujade-Lauraine E, et al. "Olaparib tablets as maintenance therapy in patients with platinum-sensitive relapsed ovarian cancer and a BRCA1/2 mutation (SOLO2/ENGOT-Ov21): a double-blind, randomised, placebo-controlled, phase 3 trial." *Lancet Oncol.* 2017;18:1274-1284.
+- Pivotal publication: Pujade-Lauraine E, et al. "Olaparib tablets as maintenance therapy in patients with platinum-sensitive relapsed ovarian cancer and a BRCA1/2 mutation (SOLO2/ENGOT-Ov21): a double-blind, randomised, placebo-controlled, phase 3 trial." *Lancet Oncol.* 2017;18:1274-1284. [DOI](<https://doi.org/10.1016/S1470-2045(17)30469-2>), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28754483/), [Google Scholar](https://scholar.google.com/scholar?q=Olaparib%20tablets%20as%20maintenance%20therapy%20in%20patients%20with%20platinum-sensitive%20relapsed%20ovarian%20cancer%20and%20a%20BRCA1/2%20mutation)
 
 **Other resources**
 
@@ -170,10 +202,19 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 ### 4. Enzalutamide (Xtandi) — NDA 203415/S-003
 
 **Sponsor:** Astellas Pharma US, Inc. (co-developed with Medivation)
+
 **Indication approved:** Metastatic castration-resistant prostate cancer (mCRPC), regardless of prior docetaxel exposure (expanded from post-chemotherapy-only)
+
 **Approval date:** September 10, 2014
+
 **Pivotal trial:** PREVAIL, NCT01212991
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, co-primary endpoints · *Endpoints:* OS + rPFS (co-primary) · *Primary analysis:* unstratified log-rank test, unstratified Cox proportional-hazards model · *Interim/alpha-spending:* group-sequential design (pre-specified interim OS analysis) — [inferred] no confirmed spending function; see Reverse-engineered SAP below
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, co-primary endpoints
+- *Endpoints:* OS + rPFS (co-primary)
+- *Primary analysis:* unstratified log-rank test, unstratified Cox proportional-hazards model
+- *Interim/alpha-spending:* group-sequential design (pre-specified interim OS analysis) — [inferred] no confirmed spending function; see Reverse-engineered SAP below
 
 **No genuine SAP or protocol is publicly posted for PREVAIL.** NCT01212991 was registered in 2010, before ClinicalTrials.gov's sponsor document-posting norms took hold (these became common industry practice from roughly 2017 onward). No Documents tab entries exist for this trial, and no separate FDA statistical review was found publicly posted for this specific supplement (203415/S-003) — Drugs@FDA lists only the label and approval letter for this action. This entry therefore relies on the approved label and the pivotal NEJM publication, with a reverse-engineered SAP for the analysis details not stated in either.
 
@@ -190,7 +231,7 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 - Package Insert / Label (2014, S-003) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/203415s003lbl.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT01212991 (no protocol/SAP documents posted)
 - FDA Statistical Review for the *original* 2012 NDA 203415 approval (AFFIRM trial, post-docetaxel indication — different trial, included here only as methodological context for the same sponsor/division's conventions) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2012/203415Orig1s000StatR.pdf
-- Pivotal publication: Beer TM, et al. "Enzalutamide in Metastatic Prostate Cancer before Chemotherapy." *N Engl J Med.* 2014;371:424-433. https://www.nejm.org/doi/full/10.1056/NEJMoa1405095
+- Pivotal publication: Beer TM, et al. "Enzalutamide in Metastatic Prostate Cancer before Chemotherapy." *N Engl J Med.* 2014;371:424-433. [DOI](https://doi.org/10.1056/NEJMoa1405095), [PubMed](https://pubmed.ncbi.nlm.nih.gov/24881730/), [Google Scholar](https://scholar.google.com/scholar?q=Enzalutamide%20in%20Metastatic%20Prostate%20Cancer%20before%20Chemotherapy)
 
 **Other resources**
 
@@ -215,10 +256,20 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 ### 5. Venetoclax (Venclexta) — NDA 208573/S-013
 
 **Sponsor:** AbbVie Inc. (co-marketed with Genentech/Roche)
+
 **Indication approved:** Venetoclax + obinutuzumab, previously untreated chronic lymphocytic leukemia (CLL) / small lymphocytic lymphoma (SLL)
+
 **Approval date:** May 15, 2019
+
 **Pivotal trial:** CLL14 (Roche/AbbVie Protocol BO25323), NCT02242942
-**Keywords:** *Design:* randomized, open-label, active-controlled, fixed-duration regimen, dual primary-endpoint definition (protocol primary vs. US-regulatory primary) · *Endpoints:* PFS (investigator- and IRC-assessed), MRD response rate, CR rate, ORR, OS · *Primary analysis:* stratified log-rank test (Binet stage), unstratified log-rank test (supportive), stratified Cox proportional-hazards model, Kaplan-Meier estimation · *Multiplicity:* Fallback Procedure (hierarchical secondary testing) · *Interim/alpha-spending:* group-sequential design, gamma-family alpha-spending function
+
+**Keywords:**
+
+- *Design:* randomized, open-label, active-controlled, fixed-duration regimen, dual primary-endpoint definition (protocol primary vs. US-regulatory primary)
+- *Endpoints:* PFS (investigator- and IRC-assessed), MRD response rate, CR rate, ORR, OS
+- *Primary analysis:* stratified log-rank test (Binet stage), unstratified log-rank test (supportive), stratified Cox proportional-hazards model, Kaplan-Meier estimation
+- *Multiplicity:* Fallback Procedure (hierarchical secondary testing)
+- *Interim/alpha-spending:* group-sequential design, gamma-family alpha-spending function
 
 **Trial design & endpoints**
 
@@ -236,7 +287,7 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 - FDA Multi-Discipline Review (Statistical Reviewer: Weishi (Vivian) Yuan, PhD) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/208573Orig1s013MultidisciplineR.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT02242942
 - Study Protocol (BO25323, Version 7 — includes the protocol-level "Statistical Considerations and Analysis Plan" section quoted below; the standalone SAP document itself was not separately posted) — https://cdn.clinicaltrials.gov/large-docs/42/NCT02242942/Prot_001.pdf
-- Pivotal publication: Fischer K, et al. "Venetoclax and Obinutuzumab in Patients with CLL and Coexisting Conditions." *N Engl J Med.* 2019;380:2225-2236. https://www.nejm.org/doi/full/10.1056/NEJMoa1815281
+- Pivotal publication: Fischer K, et al. "Venetoclax and Obinutuzumab in Patients with CLL and Coexisting Conditions." *N Engl J Med.* 2019;380:2225-2236. [DOI](https://doi.org/10.1056/NEJMoa1815281), [PubMed](https://pubmed.ncbi.nlm.nih.gov/31166681/), [Google Scholar](https://scholar.google.com/scholar?q=Venetoclax%20and%20Obinutuzumab%20in%20Patients%20with%20CLL%20and%20Coexisting%20Conditions)
 
 **Other resources**
 
@@ -269,10 +320,21 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 ### 1. Empagliflozin (Jardiance) — NDA 204629/S-008
 
 **Sponsor:** Boehringer Ingelheim / Eli Lilly
+
 **Indication approved:** Reduce the risk of cardiovascular death in adults with type 2 diabetes and established cardiovascular disease
+
 **Approval date:** December 2, 2016
+
 **Pivotal trial:** EMPA-REG OUTCOME, NCT01131676
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, dose-arm pooling, non-inferiority-then-superiority · *Endpoints:* 3-point MACE (primary), 4-point MACE (key secondary) · *Primary analysis:* Cox proportional-hazards model with covariates · *Multiplicity:* fixed four-step hierarchy (NI 3-pt→NI 4-pt→Superiority 3-pt→Superiority 4-pt) · *Interim/alpha-spending:* Haybittle-Peto adjustment for a single interim analysis · *Regulatory:* FDA Advisory Committee meeting held
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, dose-arm pooling, non-inferiority-then-superiority
+- *Endpoints:* 3-point MACE (primary), 4-point MACE (key secondary)
+- *Primary analysis:* Cox proportional-hazards model with covariates
+- *Multiplicity:* fixed four-step hierarchy (NI 3-pt→NI 4-pt→Superiority 3-pt→Superiority 4-pt)
+- *Interim/alpha-spending:* Haybittle-Peto adjustment for a single interim analysis
+- *Regulatory:* FDA Advisory Committee meeting held
 
 **Trial design & endpoints**
 
@@ -291,7 +353,7 @@ This is a clear example of "how the SAP held up under FDA review": the sponsor's
 - Package Insert / Label (2016, S-008) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/204629s008lbl.pdf
 - FDA combined review package (includes Division Director Review with full testing-hierarchy detail) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/204629Orig1s008.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT01131676 (no protocol/SAP documents posted)
-- Pivotal publication: Zinman B, et al. "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes." *N Engl J Med.* 2015;373:2117-2128.
+- Pivotal publication: Zinman B, et al. "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes." *N Engl J Med.* 2015;373:2117-2128. [DOI](https://doi.org/10.1056/NEJMoa1504720), [PubMed](https://pubmed.ncbi.nlm.nih.gov/26378978/), [Google Scholar](https://scholar.google.com/scholar?q=Empagliflozin%2C%20Cardiovascular%20Outcomes%2C%20and%20Mortality%20in%20Type%202%20Diabetes)
 
 **Other resources**
 
@@ -319,10 +381,20 @@ Note the review's own remark elsewhere that "testing was based on a 95.02% confi
 ### 2. Sacubitril/Valsartan (Entresto) — NDA 207620 (original approval)
 
 **Sponsor:** Novartis Pharmaceuticals
+
 **Indication approved:** Reduce the risk of cardiovascular death and hospitalization for heart failure in patients with chronic heart failure (NYHA class II-IV) and reduced ejection fraction
+
 **Approval date:** July 7, 2015
+
 **Pivotal trial:** PARADIGM-HF, NCT01035255
-**Keywords:** *Design:* randomized, double-blind, active-controlled, early-stopped for efficacy · *Endpoints:* CV death/HF-hospitalization composite (primary), all-cause death, KCCQ score, new-onset AF, renal composite (secondary) · *Primary analysis:* Cox regression (treatment + region), repeated-measures ANCOVA (KCCQ) · *Multiplicity:* Bonferroni-Holm sequentially rejective procedure (secondary endpoints) · *Interim/alpha-spending:* group-sequential design (3 planned interim analyses), Haybittle-Peto boundary, DMC-driven early stop
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, active-controlled, early-stopped for efficacy
+- *Endpoints:* CV death/HF-hospitalization composite (primary), all-cause death, KCCQ score, new-onset AF, renal composite (secondary)
+- *Primary analysis:* Cox regression (treatment + region), repeated-measures ANCOVA (KCCQ)
+- *Multiplicity:* Bonferroni-Holm sequentially rejective procedure (secondary endpoints)
+- *Interim/alpha-spending:* group-sequential design (3 planned interim analyses), Haybittle-Peto boundary, DMC-driven early stop
 
 **Trial design & endpoints**
 
@@ -340,7 +412,7 @@ Note the review's own remark elsewhere that "testing was based on a 95.02% confi
 - Package Insert / Label — https://www.accessdata.fda.gov/drugsatfda_docs/label/2015/207620orig1s000lbl.pdf
 - FDA Statistical Review (original NDA) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/207620Orig1s000StatR.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT01035255 (no protocol/SAP documents posted; trial record shows status "Terminated" — early stop for efficacy, not a safety termination)
-- Pivotal publication: McMurray JJV, et al. "Angiotensin-Neprilysin Inhibition versus Enalapril in Heart Failure." *N Engl J Med.* 2014;371:993-1004.
+- Pivotal publication: McMurray JJV, et al. "Angiotensin-Neprilysin Inhibition versus Enalapril in Heart Failure." *N Engl J Med.* 2014;371:993-1004. [DOI](https://doi.org/10.1056/NEJMoa1409077), [PubMed](https://pubmed.ncbi.nlm.nih.gov/25176015/), [Google Scholar](https://scholar.google.com/scholar?q=Angiotensin-Neprilysin%20Inhibition%20versus%20Enalapril%20in%20Heart%20Failure)
 
 **Other resources**
 
@@ -363,10 +435,21 @@ Note the review's own remark elsewhere that "testing was based on a 95.02% confi
 ### 3. Dapagliflozin (Farxiga) — NDA 202293/S-018
 
 **Sponsor:** AstraZeneca (trial co-led with the TIMI Study Group)
+
 **Indication approved:** Reduce the risk of hospitalization for heart failure in adults with type 2 diabetes and established cardiovascular disease or multiple CV risk factors
+
 **Approval date:** October 18, 2019
+
 **Pivotal trial:** DECLARE-TIMI 58, NCT01730534
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, non-inferiority-then-superiority, mid-trial SAP amendment (secondary endpoint elevated to dual-primary), co-primary endpoints · *Endpoints:* 3-point MACE, HHF/CV-death composite (dual primary), renal composite (secondary) · *Primary analysis:* stratified Cox proportional-hazards model (hematuria, CV risk category) · *Multiplicity:* closed testing procedure, alpha recycling · *Interim/alpha-spending:* group-sequential design, O'Brien-Fleming alpha-spending rule, 2 interim analyses · *Regulatory:* reviewer-documented mid-trial endpoint elevation (FDA feedback-driven)
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, non-inferiority-then-superiority, mid-trial SAP amendment (secondary endpoint elevated to dual-primary), co-primary endpoints
+- *Endpoints:* 3-point MACE, HHF/CV-death composite (dual primary), renal composite (secondary)
+- *Primary analysis:* stratified Cox proportional-hazards model (hematuria, CV risk category)
+- *Multiplicity:* closed testing procedure, alpha recycling
+- *Interim/alpha-spending:* group-sequential design, O'Brien-Fleming alpha-spending rule, 2 interim analyses
+- *Regulatory:* reviewer-documented mid-trial endpoint elevation (FDA feedback-driven)
 
 **Trial design & endpoints**
 
@@ -383,7 +466,7 @@ Note the review's own remark elsewhere that "testing was based on a 95.02% confi
 - Package Insert / Label (2019, S-018) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/202293s018lbl.pdf
 - FDA combined review package (Clinical Review by Michelle Carey, MD, MPH, with the full SAP amendment history and testing hierarchy) — https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/202293Orig1s018.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT01730534 (no protocol/SAP documents posted)
-- Pivotal publication: Wiviott SD, et al. "Dapagliflozin and Cardiovascular Outcomes in Type 2 Diabetes." *N Engl J Med.* 2019;380:347-357.
+- Pivotal publication: Wiviott SD, et al. "Dapagliflozin and Cardiovascular Outcomes in Type 2 Diabetes." *N Engl J Med.* 2019;380:347-357. [DOI](https://doi.org/10.1056/NEJMoa1812389), [PubMed](https://pubmed.ncbi.nlm.nih.gov/30415602/), [Google Scholar](https://scholar.google.com/scholar?q=Dapagliflozin%20and%20Cardiovascular%20Outcomes%20in%20Type%202%20Diabetes)
 
 **Other resources**
 
@@ -410,10 +493,18 @@ This is a clean real-world example of a testing hierarchy paying off exactly as 
 ### 4. Evolocumab (Repatha) — BLA 125522/S-013
 
 **Sponsor:** Amgen Inc.
+
 **Indication approved:** Reduce the risk of myocardial infarction, stroke, and coronary revascularization in adults with established cardiovascular disease
+
 **Approval date:** December 1, 2017
+
 **Pivotal trial:** FOURIER, NCT01764633
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, event-driven · *Endpoints:* 5-component MACE+ composite (primary), 3-point MACE (key secondary) · *Primary analysis:* [inferred] hierarchical primary→key-secondary gatekeeping — see Reverse-engineered SAP below
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, event-driven
+- *Endpoints:* 5-component MACE+ composite (primary), 3-point MACE (key secondary)
+- *Primary analysis:* [inferred] hierarchical primary→key-secondary gatekeeping — see Reverse-engineered SAP below
 
 **No FDA statistical review specific to this supplement was found publicly posted.** Drugs@FDA lists only the label and approval letter for BLA 125522/S-013. (A "Statistical Review and Evaluation" document does exist for BLA 125522, but it is a subgroup-analysis snapshot tied to the *original* 2015 hyperlipidemia approval, not the 2017 FOURIER-based CV supplement — included below only as a note, not as a source for this indication.) No protocol or SAP was found posted on ClinicalTrials.gov for NCT01764633. This entry relies on the approved label and the pivotal NEJM publication, with a reverse-engineered SAP for analysis details not stated in either.
 
@@ -430,7 +521,7 @@ This is a clean real-world example of a testing hierarchy paying off exactly as 
 - Package Insert / Label (2017, S-013) — https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/125522s013lbl.pdf
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT01764633 (no protocol/SAP documents posted)
 - FDA Statistical Review for the *original* 2015 BLA approval (subgroup-analysis snapshot, hyperlipidemia indication — different indication/analysis, included only as methodological context) — https://www.fda.gov/files/drugs/published/Staistical-Review-and-Evaluation--Repatha-(evolocumab).pdf
-- Pivotal publication: Sabatine MS, et al. "Evolocumab and Clinical Outcomes in Patients with Cardiovascular Disease." *N Engl J Med.* 2017;376:1713-1722.
+- Pivotal publication: Sabatine MS, et al. "Evolocumab and Clinical Outcomes in Patients with Cardiovascular Disease." *N Engl J Med.* 2017;376:1713-1722. [DOI](https://doi.org/10.1056/NEJMoa1615664), [PubMed](https://pubmed.ncbi.nlm.nih.gov/28304224/), [Google Scholar](https://scholar.google.com/scholar?q=Evolocumab%20and%20Clinical%20Outcomes%20in%20Patients%20with%20Cardiovascular%20Disease)
 
 **Other resources**
 
@@ -452,10 +543,20 @@ This is a clean real-world example of a testing hierarchy paying off exactly as 
 ### 5. Semaglutide (Wegovy) — NDA 215256/S-011
 
 **Sponsor:** Novo Nordisk A/S
+
 **Indication approved:** Reduce the risk of major adverse cardiovascular events (CV death, non-fatal MI, non-fatal stroke) in adults with established cardiovascular disease and obesity or overweight
+
 **Approval date:** March 8, 2024
+
 **Pivotal trial:** SELECT (Novo Nordisk trial ID EX9536-4388), NCT03574597
-**Keywords:** *Design:* randomized, double-blind, placebo-controlled, group-sequential (per SAP v3.0; later reportedly changed to a fixed design) · *Endpoints:* 3-point MACE (primary), HF composite / all-cause death / CV death (confirmatory secondary) · *Primary analysis:* Cox proportional-hazards model (score test), ITT estimand · *Interim/alpha-spending:* Lan-DeMets alpha-spending function approximating O'Brien-Fleming · *Missing data/bias:* competing-risk censoring, tipping-point sensitivity analysis (multiple imputation)
+
+**Keywords:**
+
+- *Design:* randomized, double-blind, placebo-controlled, group-sequential (per SAP v3.0; later reportedly changed to a fixed design)
+- *Endpoints:* 3-point MACE (primary), HF composite / all-cause death / CV death (confirmatory secondary)
+- *Primary analysis:* Cox proportional-hazards model (score test), ITT estimand
+- *Interim/alpha-spending:* Lan-DeMets alpha-spending function approximating O'Brien-Fleming
+- *Missing data/bias:* competing-risk censoring, tipping-point sensitivity analysis (multiple imputation)
 
 **Trial design & endpoints**
 
@@ -473,7 +574,7 @@ This is a clean real-world example of a testing hierarchy paying off exactly as 
 - ClinicalTrials.gov record — https://clinicaltrials.gov/study/NCT03574597
 - Statistical Analysis Plan (Trial ID EX9536-4388, Version 3.0, 22-Apr-2022, redacted for PII) — https://cdn.clinicaltrials.gov/large-docs/97/NCT03574597/SAP_003.pdf
 - Study Protocol — https://cdn.clinicaltrials.gov/large-docs/97/NCT03574597/Prot_002.pdf
-- Pivotal publication: Lincoff AM, et al. "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes." *N Engl J Med.* 2023;389:2221-2232.
+- Pivotal publication: Lincoff AM, et al. "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes." *N Engl J Med.* 2023;389:2221-2232. [DOI](https://doi.org/10.1056/NEJMoa2307563), [PubMed](https://pubmed.ncbi.nlm.nih.gov/37952131/), [Google Scholar](https://scholar.google.com/scholar?q=Semaglutide%20and%20Cardiovascular%20Outcomes%20in%20Obesity%20without%20Diabetes)
 
 **Other resources**
 
