@@ -1,6 +1,6 @@
 # FDA Phase III SAP Census
 
-**Last updated:** 2026-09-12 · **Version:** 2.0.0
+**Last updated:** 2026-09-12 · **Version:** 2.1.0
 
 A reference census of FDA Phase III drug submissions (last ~15 years), documenting trial design, the statistical analysis plan (SAP) actually used, and how FDA reviewed it.
 
@@ -9,6 +9,8 @@ A reference census of FDA Phase III drug submissions (last ~15 years), documenti
 **Sourcing note:** FDA does not routinely publish a sponsor's actual SAP document. Where a genuine SAP or protocol-with-SAP was found (posted by the sponsor on ClinicalTrials.gov's Documents tab, or embedded in an FDA statistical review), it is quoted directly and marked **[verbatim]**. Where no such document is public, the entry instead includes a **Reverse-engineered SAP** section that reconstructs the likely analysis approach from the package insert and reported results, with each inferred point traced to what it's inferred from, and marked **[inferred]**.
 
 **Keyword tagging:** each entry below carries a **Keywords:** line (trial design, endpoint type, primary analysis method, multiplicity control, interim monitoring/alpha-spending, missing-data/bias handling, and regulatory-process tags where applicable), drawn from the controlled vocabulary in [`Keyword_Taxonomy.md`](Keyword_Taxonomy.md). Use that file to look up a term's definition or to see which other submissions use the same statistical method.
+
+**Acronyms:** the census is dense with regulatory, statistical, and clinical abbreviations (SAP, NDA, ORR, MMRM, REMS, and hundreds more). See [`Acronyms.md`](Acronyms.md) for a glossary.
 
 ---
 

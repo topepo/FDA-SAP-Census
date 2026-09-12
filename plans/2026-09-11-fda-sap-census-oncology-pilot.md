@@ -19,7 +19,9 @@ Where the true sponsor SAP text isn't public, the census **reverse-engineers the
 ## Repository layout
 
 - `README.md` — the census itself, organized by therapeutic area (`## Oncology`, `## Cardiovascular / Metabolic`, ...), one `###` entry per drug submission
+- `Master_Index.md` — the master scaffold: every FDA novel drug approval tracked, with a Status column pointing to the corresponding `README.md` entry number
 - `Keyword_Taxonomy.md` — controlled vocabulary (7 categories: trial design, endpoint/outcome type, primary analysis method, multiplicity control, interim monitoring/alpha-spending, missing data/censoring/bias handling, regulatory process tags) that every entry's `**Keywords:**` line draws from
+- `Acronyms.md` — glossary of the regulatory/statistical/clinical acronyms used throughout the census (not trial codenames or drug compound codes, which are proper names, not decodable abbreviations)
 - `plans/` — archived plans, date-prefixed (this file)
 
 ## Per-entry template (as actually used — follow this exactly for new entries)
