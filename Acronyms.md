@@ -59,26 +59,33 @@ This is a living document — as new entries are added to the census, extend the
 | Acronym | Meaning |
 |---|---|
 | ANCOVA | Analysis of Covariance |
+| ANHECOVA | Analysis of Heterogeneous Covariance — an ANCOVA variant used with unequal randomization ratios that also yields robust variance estimates |
 | AUC | Area Under the Curve |
 | BICR / IRC | Blinded Independent Central Review / Independent Review Committee — interchangeable terms for a centralized, blinded assessment (typically of tumor imaging) used to limit investigator assessment bias |
 | CI | Confidence Interval |
 | CMH | Cochran-Mantel-Haenszel (test) |
+| CPH | Cox Proportional Hazards (model) |
 | FAS | Full Analysis Set |
 | GEE | Generalized Estimating Equations |
 | HR | Hazard Ratio |
 | IPCW | Inverse Probability of Censoring Weighting |
 | ITT / mITT | Intent-to-Treat / modified Intent-to-Treat (analysis population) |
+| J2R | Jump-to-Reference (a multiple-imputation method for intercurrent events) |
 | LOCF | Last Observation Carried Forward |
 | LS (mean/means) | Least-Squares (mean) — a model-adjusted mean, as opposed to a raw/observed mean |
 | MAR / MNAR | Missing At Random / Missing Not At Random |
 | MCMC | Markov Chain Monte Carlo |
+| MI | Multiple Imputation |
 | MMRM | Mixed Model for Repeated Measures |
 | NI | Non-Inferiority |
 | NRI | Non-Responder Imputation |
 | OR | Odds Ratio |
 | PP | Per-Protocol (analysis population) |
+| RDMI | Retrieved-Dropout Multiple Imputation (a named MI variant for intercurrent-event handling) |
 | REML | Restricted (or Residual) Maximum Likelihood |
+| RPSFT | Rank-Preserving Structural Failure Time (a crossover-adjustment method) |
 | RR | Risk Ratio (or Rate Ratio, context-dependent) |
+| TOST | Two One-Sided Tests (a bioequivalence/PK-bridging test procedure) |
 
 ## Trial design & operations
 
@@ -97,6 +104,7 @@ This is a living document — as new entries are added to the census, extend the
 | Acronym | Meaning |
 |---|---|
 | ACR20/50/70 | American College of Rheumatology criteria for 20%/50%/70% improvement (rheumatoid arthritis) |
+| ARR | Annualized Relapse Rate (multiple sclerosis) |
 | BCVA | Best-Corrected Visual Acuity |
 | BOR | Best Overall Response |
 | CDR-SB | Clinical Dementia Rating – Sum of Boxes |
@@ -116,6 +124,7 @@ This is a living document — as new entries are added to the census, extend the
 | FACIT(-Fatigue) | Functional Assessment of Chronic Illness Therapy (Fatigue subscale) |
 | FEV1 | Forced Expiratory Volume in 1 second |
 | FSFI | Female Sexual Function Index |
+| GdE | Gadolinium-Enhancing (MRI lesion) |
 | FVC | Forced Vital Capacity |
 | HAQ(-DI) | Health Assessment Questionnaire (Disability Index) |
 | IGA | Investigator's Global Assessment |
@@ -190,6 +199,7 @@ This is a living document — as new entries are added to the census, extend the
 | HDL / LDL | High- (or Low-) Density Lipoprotein |
 | LDH | Lactate Dehydrogenase |
 | LLOQ / ULOQ | Lower (or Upper) Limit Of Quantification |
+| PK / PD | Pharmacokinetic(s) / Pharmacodynamic(s) |
 | RBC | Red Blood Cell |
 | ULN | Upper Limit of Normal |
 
