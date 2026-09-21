@@ -1,0 +1,38 @@
+type	method	species
+Sequential	alpha spending	bespoke spending function
+Sequential	alpha spending	Hwang-Shih-DeCani
+Sequential	alpha spending	Lan-DeMets
+Sequential	alpha spending	non-specific
+Sequential	beta spending	Fleming-Harrington
+Sequential	beta spending	non-specific
+Sequential	boundary methods	Haybittle-Peto boundary
+Sequential	boundary methods	O'Brien-Fleming
+Sequential	boundary methods	Pampallona-Tsiatis power-family futility boundary
+Sequential	boundary methods	Pocock boundary
+Sequential	boundary methods	non-specific
+Sequential	two-stage	Cui-Hung-Wang method
+Sequential	two-stage	sample-size re-estimation
+Sequential	two-stage	non-specific
+Sequential	other	non-specific
+Sequential	none	non-specific
+Structural	alpha recycling	non-specific
+Structural	alpha splitting	non-specific
+Structural	Bonferroni	graphical alpha-propagation/recycling method
+Structural	Bonferroni	Kordzakhia and Dmitrienko superchain procedure
+Structural	Bonferroni	non-specific
+Structural	closed testing procedure	non-specific
+Structural	co-primary conjunction	non-specific
+Structural	Dunnett	non-specific
+Structural	explicitly none	non-specific
+Structural	fallback	non-specific
+Structural	fallback	Wiens fallback procedure
+Structural	hierarchical	fixed-sequence hierarchical test (primary to secondary)
+Structural	hierarchical	non-specific
+Structural	Hommel	non-specific
+Structural	mixture-based gatekeeping	non-specific
+Structural	Sidak	non-specific
+Structural	step-down	Bonferroni-Holm
+Structural	step-down	non-specific
+Structural	step-up	Hochberg
+Structural	step-up	non-specific
+Structural	other	non-specific
