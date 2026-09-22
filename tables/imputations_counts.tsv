@@ -1,0 +1,19 @@
+Method	n_trials_matched
+LOCF	68
+right-censoring at last evaluable assessment	64
+other	0
+treatment-failure imputation	14
+multiple imputation	110
+non-responder imputation	80
+other imputation	0
+LLOQ imputation	2
+worst-case imputation	36
+LMCF	1
+nearest-neighbor imputation	1
+BOCF	7
+jump-to-reference (J2R)	14
+retrieved-dropout multiple imputation (RDMI)	7
+zero-imputation	4
+population-PK (PPK) imputation	1
+RPSFT	4
+IPCW	5
