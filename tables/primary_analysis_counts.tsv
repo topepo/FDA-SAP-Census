@@ -1,0 +1,110 @@
+primary_label	species	n_trials_matched
+Kaplan-Meier estimation	non-specific	110
+Kaplan-Meier estimation	Greenwood's formula	4
+Kaplan-Meier estimation	restricted mean survival time	3
+Kaplan-Meier estimation	reverse Kaplan-Meier method	2
+Kaplan-Meier estimation	log-log/complementary log-log transformation	7
+Log-rank test	non-specific	113
+Cox proportional-hazards model	non-specific	126
+Cox proportional-hazards model	marginal Cox model	2
+Cox proportional-hazards model	robust sandwich covariance estimate	8
+Cox proportional-hazards model	score-test-based CI	3
+Cochran-Mantel-Haenszel test	non-specific	134
+Cochran-Mantel-Haenszel test	Miettinen-Nurminen-type weighted CI	1
+Cochran-Mantel-Haenszel test	Breslow-Day test	8
+binomial proportion test (indep)	non-specific	13
+binomial proportion test (indep)	Chan and Zhang method	2
+binomial proportion test (indep)	Clopper-Pearson CI	106
+binomial proportion test (indep)	Farrington and Manning non-inferiority test	2
+binomial proportion test (indep)	Koch non-inferiority proportion-difference CI	3
+binomial proportion test (indep)	Miettinen-Nurminen method	31
+binomial proportion test (indep)	Newcombe method	11
+binomial proportion test (indep)	Boschloo's exact test	2
+binomial proportion test (indep)	Suissa-Shuster Z-pooled exact test	1
+binomial proportion test (indep)	Agresti and Coull method	3
+binomial proportion test (indep)	Mainland-Gart test	1
+binomial proportion test (indep)	Bell and McCaffrey method	1
+binomial proportion test (indep)	Wald test	18
+binomial proportion test (indep)	continuity-corrected	9
+binomial proportion test (indep)	Pocock-type adjusted CI (group-sequential non-inferiority)	1
+binomial proportion test (indep)	relative risk	4
+binomial proportion	non-specific	10
+binomial proportion	Clopper-Pearson exact CI	106
+binomial proportion	Wald CI	18
+binomial proportion	Wilson score CI	5
+binomial proportion	Blyth-Still-Casella exact CI	1
+binomial proportion	z-test for performance goal	36
+binomial proportion	one-sample exact binomial test	48
+binomial proportion	one-sample asymptotic CI with continuity correction	13
+binomial proportion	descriptive response-rate analysis (no formal test)	77
+mixed model for repeated measures	non-specific	85
+mixed model for repeated measures	random coefficient model	5
+mixed model for repeated measures	hierarchical/multilevel linear model	1
+mixed model for repeated measures	mixed-effects linear model	11
+mixed model for repeated measures	Kenward-Roger denominator degrees of freedom	22
+mixed model for repeated measures	two-stage slope analysis	2
+hazard ratio CI	non-specific	26
+hazard ratio CI	HR from log-rank U/V statistics (Pike estimator)	3
+ordinaly linear model	non-specific	3
+ordinaly linear model	ANOVA	5
+ordinaly linear model	ANCOVA	122
+ordinaly linear model	single-timepoint ANCOVA	1
+ordinaly linear model	ANCOVA with LS-means	6
+generalized estimating equations	non-specific	12
+linear trend test	non-specific	1
+Poisson regression	non-specific	14
+Poisson regression	Poisson regression with Pearson chi-square overdispersion scaling (quasi-Poisson)	8
+Poisson regression	log-link generalized linear model for count data	3
+rank-based linear model	non-specific	4
+rank-based linear model	Gehan score transformation + linear mixed model	1
+rank-based linear model	exact Wilcoxon rank-sum test on ANCOVA residuals	1
+nonparametric test	non-specific	5
+nonparametric test	Wilcoxon rank-sum test	28
+nonparametric test	Kruskal-Wallis test	1
+nonparametric test	van Elteren test	3
+nonparametric test	Wilcoxon signed-rank test	4
+nonparametric test	Kolmogorov-Smirnov test	2
+nonparametric test	Shapiro-Wilk test	3
+nonparametric test	permutation test	5
+nonparametric test	bootstrap resampling method	3
+Andersen-Gill extended Cox model	non-specific	2
+Andersen-Gill extended Cox model	time-varying-covariates	1
+logistic regression	non-specific	46
+2x2 table analysis	non-specific	6
+2x2 table analysis	chi-square test	19
+2x2 table analysis	chi-square test without continuity correction	3
+2x2 table analysis	Fisher's exact test	31
+2x2 table analysis	Breslow-Day test	8
+2x2 table analysis	Boschloo's exact test	2
+Brookmeyer-Crowley method	non-specific	21
+Brookmeyer-Crowley method	Brookmeyer-Crowley method with log-log transformation	0
+negative binomial regression	non-specific	27
+negative binomial regression	zero-inflated negative binomial regression	1
+meta-analysis	non-specific	4
+meta-analysis	cross-species meta-analysis	1
+meta-analysis	pooled analysis across a multi-trial database	1
+basic binomial statistics	non-specific	0
+basic binomial statistics	sensitivity/specificity/accuracy	59
+basic binomial statistics	kappa (Cohen's/Fleiss')	3
+basic binomial statistics	positive/negative percent agreement	4
+basic binomial statistics	Wilson score method	4
+Finkelstein-Schoenfeld method	non-specific	1
+Finkelstein-Schoenfeld method	Pocock's win ratio	1
+Gehan-Wilcoxon rank score	non-specific	1
+Gehan-Wilcoxon rank score	Peto-Peto Wilcoxon test	2
+Gehan-Wilcoxon rank score	Peto-Prentice generalized Wilcoxon test	1
+Hodges-Lehmann estimator	non-specific	15
+binomial proportion test (paired)	non-specific	0
+binomial proportion test (paired)	McNemar's test	4
+binomial proportion test (paired)	Mainland-Gart test	1
+t-test (indep)	non-specific	5
+t-test (indep)	conditional two-sample t-test (Kolmogorov-Smirnov-selected)	1
+t-test (paired)	non-specific	7
+correlation test	non-specific	8
+correlation test	Spearman's rho correlation test	1
+equivalence testing	non-specific	0
+equivalence testing	TOST	1
+equivalence testing	bioequivalence (geometric mean ratio)	4
+equivalence testing	continuous mean-difference equivalence test	1
+Joint rank test	non-specific	1
+No analysis	non-specific	43
