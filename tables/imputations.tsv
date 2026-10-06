@@ -1,0 +1,19 @@
+Method	notes
+LOCF	
+right-censoring at last evaluable assessment	
+other	
+treatment-failure imputation	
+multiple imputation	
+non-responder imputation	
+other imputation	
+LLOQ imputation	
+worst-case imputation	
+LMCF	
+nearest-neighbor imputation	
+BOCF	
+jump-to-reference (J2R)	
+retrieved-dropout multiple imputation (RDMI)	
+zero-imputation	
+population-PK (PPK) imputation	
+RPSFT	prospective method for handling missing/incomplete data caused by treatment crossover - doesn't impute values, but reconstructs the counterfactual event-time to solve the same analysis problem
+IPCW	prospective method for handling missing/incomplete data caused by treatment crossover - doesn't impute values, but reweights observed data to solve the same analysis problem

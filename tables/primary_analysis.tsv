@@ -1,0 +1,110 @@
+primary_label	outcome_type	species
+Kaplan-Meier estimation	Censored	non-specific
+Kaplan-Meier estimation	Censored	Greenwood's formula
+Kaplan-Meier estimation	Censored	restricted mean survival time
+Kaplan-Meier estimation	Censored	reverse Kaplan-Meier method
+Kaplan-Meier estimation	Censored	log-log/complementary log-log transformation
+Log-rank test	Censored	non-specific
+Cox proportional-hazards model	Censored	non-specific
+Cox proportional-hazards model	Censored	marginal Cox model
+Cox proportional-hazards model	Censored	robust sandwich covariance estimate
+Cox proportional-hazards model	Censored	score-test-based CI
+Cochran-Mantel-Haenszel test	Categorical	non-specific
+Cochran-Mantel-Haenszel test	Categorical	Miettinen-Nurminen-type weighted CI
+Cochran-Mantel-Haenszel test	Categorical	Breslow-Day test
+binomial proportion test (indep)	Categorical	non-specific
+binomial proportion test (indep)	Categorical	Chan and Zhang method
+binomial proportion test (indep)	Categorical	Clopper-Pearson CI
+binomial proportion test (indep)	Categorical	Farrington and Manning non-inferiority test
+binomial proportion test (indep)	Categorical	Koch non-inferiority proportion-difference CI
+binomial proportion test (indep)	Categorical	Miettinen-Nurminen method
+binomial proportion test (indep)	Categorical	Newcombe method
+binomial proportion test (indep)	Categorical	Boschloo's exact test
+binomial proportion test (indep)	Categorical	Suissa-Shuster Z-pooled exact test
+binomial proportion test (indep)	Categorical	Agresti and Coull method
+binomial proportion test (indep)	Categorical	Mainland-Gart test
+binomial proportion test (indep)	Categorical	Bell and McCaffrey method
+binomial proportion test (indep)	Categorical	Wald test
+binomial proportion test (indep)	Categorical	continuity-corrected
+binomial proportion test (indep)	Categorical	Pocock-type adjusted CI (group-sequential non-inferiority)
+binomial proportion test (indep)	Categorical	relative risk
+binomial proportion	Categorical	non-specific
+binomial proportion	Categorical	Clopper-Pearson exact CI
+binomial proportion	Categorical	Wald CI
+binomial proportion	Categorical	Wilson score CI
+binomial proportion	Categorical	Blyth-Still-Casella exact CI
+binomial proportion	Categorical	z-test for performance goal
+binomial proportion	Categorical	one-sample exact binomial test
+binomial proportion	Categorical	one-sample asymptotic CI with continuity correction
+binomial proportion	Categorical	descriptive response-rate analysis (no formal test)
+mixed model for repeated measures	Numeric	non-specific
+mixed model for repeated measures	Numeric	random coefficient model
+mixed model for repeated measures	Numeric	hierarchical/multilevel linear model
+mixed model for repeated measures	Numeric	mixed-effects linear model
+mixed model for repeated measures	Numeric	Kenward-Roger denominator degrees of freedom
+mixed model for repeated measures	Numeric	two-stage slope analysis
+hazard ratio CI	Censored	non-specific
+hazard ratio CI	Censored	HR from log-rank U/V statistics (Pike estimator)
+ordinaly linear model	Numeric	non-specific
+ordinaly linear model	Numeric	ANOVA
+ordinaly linear model	Numeric	ANCOVA
+ordinaly linear model	Numeric	single-timepoint ANCOVA
+ordinaly linear model	Numeric	ANCOVA with LS-means
+generalized estimating equations	Categorical	non-specific
+linear trend test	varies	non-specific
+Poisson regression	Count	non-specific
+Poisson regression	Count	Poisson regression with Pearson chi-square overdispersion scaling (quasi-Poisson)
+Poisson regression	Count	log-link generalized linear model for count data
+rank-based linear model	Numeric	non-specific
+rank-based linear model	Numeric	Gehan score transformation + linear mixed model
+rank-based linear model	Numeric	exact Wilcoxon rank-sum test on ANCOVA residuals
+nonparametric test	Numeric	non-specific
+nonparametric test	Numeric	Wilcoxon rank-sum test
+nonparametric test	Numeric	Kruskal-Wallis test
+nonparametric test	Numeric	van Elteren test
+nonparametric test	Numeric	Wilcoxon signed-rank test
+nonparametric test	Numeric	Kolmogorov-Smirnov test
+nonparametric test	Numeric	Shapiro-Wilk test
+nonparametric test	Numeric	permutation test
+nonparametric test	Numeric	bootstrap resampling method
+Andersen-Gill extended Cox model	Count	non-specific
+Andersen-Gill extended Cox model	Count	time-varying-covariates
+logistic regression	Categorical	non-specific
+2x2 table analysis	Categorical	non-specific
+2x2 table analysis	Categorical	chi-square test
+2x2 table analysis	Categorical	chi-square test without continuity correction
+2x2 table analysis	Categorical	Fisher's exact test
+2x2 table analysis	Categorical	Breslow-Day test
+2x2 table analysis	Categorical	Boschloo's exact test
+Brookmeyer-Crowley method	Censored	non-specific
+Brookmeyer-Crowley method	Censored	Brookmeyer-Crowley method with log-log transformation
+negative binomial regression	Count	non-specific
+negative binomial regression	Count	zero-inflated negative binomial regression
+meta-analysis	varies	non-specific
+meta-analysis	varies	cross-species meta-analysis
+meta-analysis	varies	pooled analysis across a multi-trial database
+basic binomial statistics	Categorical	non-specific
+basic binomial statistics	Categorical	sensitivity/specificity/accuracy
+basic binomial statistics	Categorical	kappa (Cohen's/Fleiss')
+basic binomial statistics	Categorical	positive/negative percent agreement
+basic binomial statistics	Categorical	Wilson score method
+Finkelstein-Schoenfeld method	Censored	non-specific
+Finkelstein-Schoenfeld method	Censored	Pocock's win ratio
+Gehan-Wilcoxon rank score	Censored	non-specific
+Gehan-Wilcoxon rank score	Censored	Peto-Peto Wilcoxon test
+Gehan-Wilcoxon rank score	Censored	Peto-Prentice generalized Wilcoxon test
+Hodges-Lehmann estimator	Numeric	non-specific
+binomial proportion test (paired)	Categorical	non-specific
+binomial proportion test (paired)	Categorical	McNemar's test
+binomial proportion test (paired)	Categorical	Mainland-Gart test
+t-test (indep)	Numeric	non-specific
+t-test (indep)	Numeric	conditional two-sample t-test (Kolmogorov-Smirnov-selected)
+t-test (paired)	Numeric	non-specific
+correlation test	Numeric	non-specific
+correlation test	Numeric	Spearman's rho correlation test
+equivalence testing	Numeric	non-specific
+equivalence testing	Numeric	TOST
+equivalence testing	Numeric	bioequivalence (geometric mean ratio)
+equivalence testing	Numeric	continuous mean-difference equivalence test
+Joint rank test	Censored	non-specific
+No analysis	NA	non-specific

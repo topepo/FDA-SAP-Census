@@ -1,0 +1,40 @@
+type	method	species	n_trials_matched
+Sequential	alpha spending	bespoke spending function	2
+Sequential	alpha spending	Hwang-Shih-DeCani	5
+Sequential	alpha spending	Lan-DeMets	46
+Sequential	alpha spending	non-specific	30
+Sequential	beta spending	Fleming-Harrington	3
+Sequential	beta spending	non-specific	8
+Sequential	boundary methods	Haybittle-Peto boundary	15
+Sequential	boundary methods	O'Brien-Fleming	56
+Sequential	boundary methods	Pampallona-Tsiatis power-family futility boundary	1
+Sequential	boundary methods	Pocock boundary	6
+Sequential	boundary methods	non-specific	16
+Sequential	two-stage	Cui-Hung-Wang method	6
+Sequential	two-stage	sample-size re-estimation	10
+Sequential	two-stage	non-specific	14
+Sequential	conditional power rule	non-specific	6
+Sequential	Bayesian predictive probability rule	non-specific	4
+Sequential	other	non-specific	14
+Sequential	none	non-specific	16
+Structural	alpha recycling	non-specific	20
+Structural	alpha splitting	non-specific	14
+Structural	Bonferroni	graphical alpha-propagation/recycling method	21
+Structural	Bonferroni	Kordzakhia and Dmitrienko superchain procedure	2
+Structural	Bonferroni	non-specific	42
+Structural	closed testing procedure	non-specific	16
+Structural	co-primary conjunction	non-specific	52
+Structural	Dunnett	non-specific	3
+Structural	explicitly none	non-specific	78
+Structural	fallback	non-specific	4
+Structural	fallback	Wiens fallback procedure	2
+Structural	hierarchical	fixed-sequence hierarchical test (primary to secondary)	220
+Structural	hierarchical	non-specific	66
+Structural	Hommel	non-specific	3
+Structural	mixture-based gatekeeping	non-specific	2
+Structural	Sidak	non-specific	1
+Structural	step-down	Bonferroni-Holm	11
+Structural	step-down	non-specific	160
+Structural	step-up	Hochberg	44
+Structural	step-up	non-specific	1
+Structural	other	non-specific	0
