@@ -46,7 +46,10 @@ collapse_hits <- function(x, patterns, none = "Not stated") {
   hits <- map(patterns, \(p) has(x, p))
   map_chr(seq_along(x), function(i) {
     found <- names(patterns)[map_lgl(hits, \(h) h[i])]
-    if (length(found) == 0) none else paste(found, collapse = "; ")
+    if (length(found) == 0) {
+      return(none)
+    }
+    paste(found, collapse = "; ")
   })
 }
 

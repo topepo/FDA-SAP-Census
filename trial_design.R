@@ -86,7 +86,10 @@ collapse_hits <- function(x, patterns) {
   hits <- map(patterns, \(p) has(x, p))
   map_chr(seq_along(x), function(i) {
     found <- names(patterns)[map_lgl(hits, \(h) h[i])]
-    if (length(found) == 0) "Not stated" else paste(found, collapse = "; ")
+    if (length(found) == 0) {
+      return("Not stated")
+    }
+    paste(found, collapse = "; ")
   })
 }
 
@@ -169,7 +172,10 @@ design <-
     allocation_ratio = map_chr(
       str_extract_all(design_text, "\\b[0-9]+(:[0-9]+){1,4}\\b"),
       \(x) {
-        if (length(x) == 0) "Not stated" else paste(unique(x), collapse = "; ")
+        if (length(x) == 0) {
+          return("Not stated")
+        }
+        paste(unique(x), collapse = "; ")
       }
     ),
     biomarker_selected = if_else(
