@@ -2,56 +2,16 @@ library(dplyr)
 library(purrr)
 library(stringr)
 
-lines <- readLines("~/github/FDA-SAP-Census/README.md")
-end_line <- grep("^## Cross-cutting observations", lines)
-lines <- lines[seq_len(end_line - 1)]
+source("R/parse_census.R")
 
-area_idx <- grep("^## ", lines)
-entry_idx <- grep("^### [0-9]+\\. ", lines)
-entry_end <- c(entry_idx[-1] - 1, length(lines))
-
-field <- function(x, pattern) {
-  hit <- grep(pattern, x, value = TRUE)
-  if (length(hit) == 0) {
-    return(NA_character_)
-  }
-  str_trim(sub(pattern, "", hit[1]))
-}
-
-entries <- map2(entry_idx, entry_end, function(start, stop) {
-  x <- lines[start:stop]
-  header <- sub("^### [0-9]+\\. ", "", x[1])
-  area <- lines[max(area_idx[area_idx < start])]
-  approval <- field(x, "^\\*\\*Approval date:\\*\\*")
-  tibble(
-    drug = str_trim(sub(" — .*$", "", header)),
-    application = str_trim(ifelse(
-      grepl(" — ", header),
-      sub("^.* — ", "", header),
-      NA
-    )),
-    therapeutic_area = str_trim(sub("^## ", "", area)),
-    sponsor = field(x, "^\\*\\*Sponsor:\\*\\*"),
-    year = as.integer(str_extract(approval, "(19|20)[0-9]{2}")),
-    endpoints = field(x, "^- \\*Endpoints:\\*"),
-    primary_analysis = field(x, "^- \\*Primary analysis:\\*"),
-    full_text = paste(x, collapse = " ")
-  )
-}) |>
-  list_rbind()
-
-has <- function(x, pattern) grepl(pattern, x, ignore.case = TRUE, perl = TRUE)
-
-collapse_hits <- function(x, patterns, none = "Not stated") {
-  hits <- map(patterns, \(p) has(x, p))
-  map_chr(seq_along(x), function(i) {
-    found <- names(patterns)[map_lgl(hits, \(h) h[i])]
-    if (length(found) == 0) {
-      return(none)
-    }
-    paste(found, collapse = "; ")
-  })
-}
+entries <-
+  read_census("~/github/FDA-SAP-Census/README.md") |>
+  mutate(
+    endpoints = map_chr(lines, field, "^- \\*Endpoints:\\*"),
+    primary_analysis = map_chr(lines, field, "^- \\*Primary analysis:\\*"),
+    full_text = map_chr(lines, paste, collapse = " ")
+  ) |>
+  select(-lines)
 
 # ------------------------------------------------------------------------------
 # Restrict to entries whose primary analysis uses a method with
