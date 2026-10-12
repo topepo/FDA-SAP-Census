@@ -5,7 +5,7 @@ library(stringr)
 source("R/parse_census.R")
 
 entries <-
-  read_census("~/github/FDA-SAP-Census/README.md") |>
+  read_census("census/census.md") |>
   mutate(
     endpoints = map_chr(lines, field, "^- \\*Endpoints:\\*"),
     primary_analysis = map_chr(lines, field, "^- \\*Primary analysis:\\*"),
@@ -108,7 +108,7 @@ censoring <-
 
 write.table(
   censoring,
-  "~/github/FDA-SAP-Census/tables/censoring.tsv",
+  "analysis/04-censoring/censoring.tsv",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE,

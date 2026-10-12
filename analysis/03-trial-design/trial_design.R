@@ -38,7 +38,7 @@ design_doc <- function(x) {
 }
 
 entries <-
-  read_census("~/github/FDA-SAP-Census/README.md") |>
+  read_census("census/census.md") |>
   mutate(
     pivotal_trial = map_chr(lines, field, "^\\*\\*Pivotal trials?[^*]*:\\*\\*"),
     doc = map(lines, design_doc),
@@ -177,7 +177,7 @@ design <-
 
 write.table(
   design,
-  "~/github/FDA-SAP-Census/tables/trial_design.tsv",
+  "analysis/03-trial-design/trial_design.tsv",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE,

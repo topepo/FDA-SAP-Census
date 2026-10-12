@@ -9,11 +9,11 @@ options(pillar.advice = FALSE, pillar.min_title_chars = Inf)
 # ------------------------------------------------------------------------------
 
 taxon <-
-  read.delim("~/github/FDA-SAP-Census/tables/primary_analysis.tsv", sep = "\t") |>
+  read.delim("analysis/01-keyword-counts/primary_analysis.tsv", sep = "\t") |>
   as_tibble()
 
 dat <-
-  read.delim("~/github/FDA-SAP-Census/tables/primary_analysis_counts.tsv", sep = "\t") |>
+  read.delim("analysis/01-keyword-counts/primary_analysis_counts.tsv", sep = "\t") |>
   as_tibble() |>
   inner_join(taxon, by = join_by(primary_label, species)) |>
   mutate(
@@ -62,11 +62,11 @@ by_method |>
 # ------------------------------------------------------------------------------
 
 mult_taxon <-
-  read.delim("~/github/FDA-SAP-Census/tables/multiplicity.tsv", sep = "\t") |>
+  read.delim("analysis/01-keyword-counts/multiplicity.tsv", sep = "\t") |>
   as_tibble()
 
 mult_dat <-
-  read.delim("~/github/FDA-SAP-Census/tables/multiplicity_counts.tsv", sep = "\t") |>
+  read.delim("analysis/01-keyword-counts/multiplicity_counts.tsv", sep = "\t") |>
   as_tibble() |>
   inner_join(mult_taxon, by = join_by(type, method, species))
 
@@ -107,7 +107,7 @@ by_mult_species |>
 # ------------------------------------------------------------------------------
 
 imp_dat <-
-  read.delim("~/github/FDA-SAP-Census/tables/imputations_counts.tsv", sep = "\t") |>
+  read.delim("analysis/01-keyword-counts/imputations_counts.tsv", sep = "\t") |>
   as_tibble() |>
   mutate(Method = reorder(factor(Method), n_trials_matched))
 

@@ -9,7 +9,7 @@ options(pillar.advice = FALSE, pillar.min_title_chars = Inf)
 # ------------------------------------------------------------------------------
 
 clin_pharm_dat <-
-  read.delim("~/github/FDA-SAP-Census/tables/clin_pharm.tsv", sep = "\t") |>
+  read.delim("analysis/02-clinical-pharmacology/clin_pharm.tsv", sep = "\t") |>
   as_tibble() |>
   filter(model_type != "NO SIGNAL") |> 
   mutate(
