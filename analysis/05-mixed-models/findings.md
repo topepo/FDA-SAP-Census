@@ -1,15 +1,15 @@
 # Mixed-effects, random-coefficient and repeated-measures models in the FDA SAP census
 
-**Compiled:** 2026-10-07 · **Scope:** every census entry in `README.md` whose text mentions a mixed-effects, random-coefficient, repeated-measures, or GEE model (187 of 684 entries).
+**Compiled:** 2026-10-07 · **Scope:** every census entry in `census/census.md` whose text mentions a mixed-effects, random-coefficient, repeated-measures, or GEE model (187 of 684 entries).
 
 **Companion files:**
 
-- [`Mixed_Models_Trial_Details.md`](Mixed_Models_Trial_Details.md): per-trial evidence, with each model's terms, covariance, df method, software, and results, and the URLs consulted. Each entry ends with a **Verbatim specification excerpts** section: 1,810 quoted passages and 57 SAS code blocks taken directly from the FDA reviews, SAPs and publications.
-- [`tables/mixed_models.tsv`](tables/mixed_models.tsv): one row per model (579 rows: 572 models plus 7 false-positive entries). It has the raw extracted fields and the standardized `*_std` columns used for every count in this document.
+- [`trial_details.md`](trial_details.md): per-trial evidence, with each model's terms, covariance, df method, software, and results, and the URLs consulted. Each entry ends with a **Verbatim specification excerpts** section: 1,810 quoted passages and 57 SAS code blocks taken directly from the FDA reviews, SAPs and publications.
+- [`mixed_models.tsv`](mixed_models.tsv): one row per model (579 rows: 572 models plus 7 false-positive entries). It has the raw extracted fields and the standardized `*_std` columns used for every count in this document.
 
 ## How this was built
 
-1. The candidate entries were found by a keyword search of `README.md`. The pattern covered MMRM, mixed effects/model, random coefficient/slope/intercept/effect, repeated measures, GLMM, unstructured covariance, Kenward-Roger, compound symmetry, PROC MIXED/GLIMMIX, autoregressive, and GEE. It found 187 entries. In 146 of them the hit is in the `Primary analysis:` keyword bullet.
+1. The candidate entries were found by a keyword search of `census/census.md`. The pattern covered MMRM, mixed effects/model, random coefficient/slope/intercept/effect, repeated measures, GLMM, unstructured covariance, Kenward-Roger, compound symmetry, PROC MIXED/GLIMMIX, autoregressive, and GEE. It found 187 entries. In 146 of them the hit is in the `Primary analysis:` keyword bullet.
 2. For each entry, the README section was read in full. Then the primary sources in its **Documents** list were downloaded and converted to text: Protocol/SAP, FDA Statistical / Multi-Discipline / Integrated / Medical Review, and the publication where open access. Model specifications were extracted from those documents.
 3. Every analysis using one of these models was recorded, whatever its role: primary, key secondary, secondary, sensitivity, supportive, or an FDA reviewer's own reanalysis.
 4. A second pass pulled verbatim passages stating each model's specification from the downloaded document text. Every quote was then checked mechanically against that text: 1,855 of 1,864 matched exactly, 6 matched in part (they span a page break or table in the PDF), and 3 were too short to check. Where a model's own quotes stated a df method, estimation method, covariance or software that the first pass had recorded as *Not stated*, the field was filled in (11 fields, flagged in the TSV's `filled_from_quotes` column).
@@ -352,7 +352,7 @@ Nearly every MMRM is justified as "likelihood-based under MAR, no imputation". S
 
 ## 7. README discrepancies found during this investigation
 
-These came from comparing README entries with the primary documents. **None have been corrected in `README.md`.**
+These came from comparing README entries with the primary documents. **None have been corrected in `census/census.md`.**
 
 | Entry | Discrepancy |
 |---|---|

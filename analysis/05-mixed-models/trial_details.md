@@ -1,6 +1,6 @@
 # Mixed-effects, random-coefficient and repeated-measures models: trial-level details
 
-Companion to [`Mixed_Models_Findings.md`](Mixed_Models_Findings.md). One section per census entry flagged by a keyword search of `README.md`, in README order. Each section lists every mixed-effects, random-coefficient, repeated-measures or GEE analysis found in the README entry and in the FDA reviews, SAPs, and publications linked from it.
+Companion to [`findings.md`](findings.md). One section per census entry flagged by a keyword search of `census/census.md`, in README order. Each section lists every mixed-effects, random-coefficient, repeated-measures or GEE analysis found in the README entry and in the FDA reviews, SAPs, and publications linked from it.
 
 Provenance tags: `[README]` census entry; `[SAP]`/`[Protocol]` sponsor document posted on ClinicalTrials.gov; `[StatR]` FDA Statistical Review; `[MDR]`/`[IR]`/`[IntegratedR]` FDA Multi-Discipline or Integrated Review; `[MedR]` FDA Medical Review; `[Pub]` journal publication. Page numbers are PDF page indices and may be off by about one from the printed page. Fields reading *Not stated* were not found in any source consulted.
 
@@ -8227,7 +8227,7 @@ Entry notes: Key secondary endpoints (CGI-I, Conners 3-Parent Composite T-score,
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/211964Orig1s000IntegratedR.pdf ✔ (fetched via curl+pdftotext (WebFetch failed: >10MB))
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC8146561/ (Study 304 pub, Europe PMC full text) ✘ (failed (no full text returned))
 
@@ -8352,7 +8352,7 @@ Entry notes: ENLIGHTEN-2 (A303) co-primary weight endpoints were NOT analyzed by
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/213378Orig1Orig2s000MultidisciplineR.pdf ✔ (fetched via curl+pdftotext (WebFetch failed: >10MB))
 
 ### Aducanumab-avwa (Aduhelm) — BLA 761178
@@ -8476,7 +8476,7 @@ Entry notes: Primary results Tables 6-7 are images; numbers below are from revie
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/761178Orig1s000StatR.pdf ✔ (fetched via curl+pdftotext (WebFetch returned unreadable binary))
 
 ### Atogepant (Qulipta) — NDA 215206
@@ -8623,7 +8623,7 @@ Same as Model 2, second quote ("For secondary endpoints, pairwise comparisons we
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215206Orig1s000IntegratedR.pdf ✔ (fetched via curl+pdftotext (WebFetch failed: >10MB))
 
 ### Daridorexant (Quviviq) — NDA 214985
@@ -8764,7 +8764,7 @@ Entry notes: FDA statistical reviewer raised estimand-alignment concern (MMRM ma
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/214985Orig1s000IntegratedR.pdf ✔ (fetched via curl+pdftotext (WebFetch failed: >10MB))
 
 ### Sodium phenylbutyrate/taurursodiol (Relyvrio) — NDA 216660
@@ -8851,7 +8851,7 @@ Entry notes: FDA separate Statistical Review (Massie) not posted at the guessed 
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216660Orig1s000SumR.pdf ✔ (fetched via curl+pdftotext)
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/216660Orig1s000StatR.pdf ✘ (failed (not a PDF))
 - https://www.nejm.org/doi/full/10.1056/NEJMoa1916945 ✘ (failed (403); PMC9134321 failed (reCAPTCHA / no Europe PMC full text))
@@ -9022,7 +9022,7 @@ Entry notes: Study 301 sponsor Table 5 (CDR-SB) is an image; FDA's own reproduce
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761269Orig1s001.pdf ✔ (fetched via curl+pdftotext (Study 301 Statistical Review, Massie, Ref ID 5200126))
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761269Orig1s000StatR.pdf ✔ (fetched via curl+pdftotext (Study 201))
 
@@ -9185,7 +9185,7 @@ Same as Model 1 (Neul et al. 2023 statistical-analysis paragraph, which names th
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217026Orig1s000StatR.pdf ✔ (fetched via curl+pdftotext)
 - https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10287558/fullTextXML (Neul 2023 Nat Med) ✔ (fetched)
 
@@ -9273,7 +9273,7 @@ Entry notes: Unusual specification: the MMRM included 'study subject as a random
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761286Orig1s000IntegratedR.pdf ✔ (fetched via curl+pdftotext)
 
 ### Zuranolone (Zurzuvae) — NDA 217369
@@ -9449,7 +9449,7 @@ See also Model 1, second quote (fixed-sequence testing including "the CFB to Day
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/217369Orig2s000IntegratedR.pdf ✔ (fetched via curl+pdftotext (WebFetch would exceed 10MB))
 
 ### Gepirone (Exxua) — NDA 021164
@@ -9561,7 +9561,7 @@ Entry notes: Prespecified primary analyses were ANOVA (treatment + center) on LO
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/021164Orig1s000StatR.pdf ✔ (fetched via curl+pdftotext)
 - https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/021164s000lbl.pdf ✔ (fetched via curl+pdftotext)
 
@@ -9659,7 +9659,7 @@ No text in the Integrated Review states the key-secondary model terms separately
 
 Sources consulted:
 
-- README.md entry ✔
+- census/census.md entry ✔
 - https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/216834Orig1s000IntegratedR.pdf ✔ (fetched via curl+pdftotext)
 
 ### Donanemab-azbt (Kisunla) — BLA 761248
@@ -13819,7 +13819,7 @@ run;
 
 Sources consulted:
 
-- ✔ README.md lines 30877-30982
+- ✔ census/census.md lines 30877-30982
 - ✔ SAP v1.3.1 https://cdn.clinicaltrials.gov/large-docs/34/NCT03312634/SAP_003.pdf (WebFetch could not read it; downloaded PDF and extracted text with pdftotext)
 - ✔ FDA Integrated Review https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/215559Orig1s000IntegratedR.pdf (WebFetch failed: >10 MB; downloaded with curl and extracted with pdftotext)
 - ✔ PubMed abstract 36583535 (via NCBI eutils; the pubmed.ncbi.nlm.nih.gov page returned only a cookie wall)
@@ -14013,7 +14013,7 @@ No further specification text found in: SAP Final v3.0 (only the Table 7 row nam
 
 Sources consulted:
 
-- ✔ README.md lines 31061-31144
+- ✔ census/census.md lines 31061-31144
 - ✔ SAP Final v3.0 https://cdn.clinicaltrials.gov/large-docs/62/NCT03729362/SAP_001.pdf (WebFetch could not read it; downloaded PDF and extracted text with pdftotext)
 - ✔ FDA Integrated Review https://www.accessdata.fda.gov/drugsatfda_docs/nda/2023/761204Orig1s000IntegratedR.pdf (WebFetch failed: >10 MB; downloaded with curl and extracted with pdftotext)
 - ✔ PubMed abstract 34800400 (via NCBI eutils)
