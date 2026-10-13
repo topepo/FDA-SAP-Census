@@ -2,21 +2,7 @@ library(dplyr)
 library(purrr)
 library(stringr)
 
-lines <- readLines("~/github/FDA-SAP-Census/README.md")
-end_line <- grep("^## Cross-cutting observations", lines)
-lines <- lines[seq_len(end_line - 1)]
-
-area_idx <- grep("^## ", lines)
-entry_idx <- grep("^### [0-9]+\\. ", lines)
-entry_end <- c(entry_idx[-1] - 1, length(lines))
-
-field <- function(x, pattern) {
-  hit <- grep(pattern, x, value = TRUE)
-  if (length(hit) == 0) {
-    return(NA_character_)
-  }
-  str_trim(sub(pattern, "", hit[1]))
-}
+source("R/parse_census.R")
 
 # Ordered from most to least design-specific; the first type present in an
 # entry's Documents section wins.
@@ -51,47 +37,21 @@ design_doc <- function(x) {
   c(NA_character_, NA_character_)
 }
 
-entries <- map2(entry_idx, entry_end, function(start, stop) {
-  x <- lines[start:stop]
-  header <- sub("^### [0-9]+\\. ", "", x[1])
-  area <- lines[max(area_idx[area_idx < start])]
-  approval <- field(x, "^\\*\\*Approval date:\\*\\*")
-  doc <- design_doc(x)
-  tibble(
-    drug = str_trim(sub(" — .*$", "", header)),
-    application = str_trim(ifelse(
-      grepl(" — ", header),
-      sub("^.* — ", "", header),
-      NA
-    )),
-    therapeutic_area = str_trim(sub("^## ", "", area)),
-    sponsor = field(x, "^\\*\\*Sponsor:\\*\\*"),
-    year = as.integer(str_extract(approval, "(19|20)[0-9]{2}")),
-    pivotal_trial = field(x, "^\\*\\*Pivotal trials?[^*]*:\\*\\*"),
-    design_doc_type = doc[1],
-    design_doc_url = doc[2],
-    design_text = field(x, "^- \\*Design:\\*")
-  )
-}) |>
-  list_rbind()
+entries <-
+  read_census("census/census.md") |>
+  mutate(
+    pivotal_trial = map_chr(lines, field, "^\\*\\*Pivotal trials?[^*]*:\\*\\*"),
+    doc = map(lines, design_doc),
+    design_doc_type = map_chr(doc, 1),
+    design_doc_url = map_chr(doc, 2),
+    design_text = map_chr(lines, field, "^- \\*Design:\\*")
+  ) |>
+  select(-lines, -doc)
 
 # ------------------------------------------------------------------------------
 # Classify the free-text Design bullet. Each column is matched independently;
 # multi-valued columns are "; "-delimited since one bullet often describes
 # several pivotal trials or a multi-part study.
-
-has <- function(x, pattern) grepl(pattern, x, ignore.case = TRUE, perl = TRUE)
-
-collapse_hits <- function(x, patterns) {
-  hits <- map(patterns, \(p) has(x, p))
-  map_chr(seq_along(x), function(i) {
-    found <- names(patterns)[map_lgl(hits, \(h) h[i])]
-    if (length(found) == 0) {
-      return("Not stated")
-    }
-    paste(found, collapse = "; ")
-  })
-}
 
 nonrand_pat <- "non-?randomi[sz]ed|single-arm|single arm|uncontrolled|no (internal |concurrent |randomized )?(comparator|control)"
 rand_pat <- "(?<!non-)(?<!non)randomi[sz](ed|ation)|\\bRCTs?\\b"
@@ -217,7 +177,7 @@ design <-
 
 write.table(
   design,
-  "~/github/FDA-SAP-Census/tables/trial_design.tsv",
+  "analysis/03-trial-design/trial_design.tsv",
   sep = "\t",
   quote = FALSE,
   row.names = FALSE,

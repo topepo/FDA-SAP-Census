@@ -1,8 +1,8 @@
 # Acronyms & Abbreviations
 
-A glossary of the acronyms and abbreviations used throughout [`README.md`](README.md), [`Master_Index.md`](Master_Index.md), and [`Keyword_Taxonomy.md`](Keyword_Taxonomy.md).
+A glossary of the acronyms and abbreviations used throughout [`census.md`](census.md), [`master_index.md`](master_index.md), and [`keyword_taxonomy.md`](keyword_taxonomy.md).
 
-**What's *not* here:** pivotal-trial codenames (KEYNOTE-024, FLAURA, ENGAGE, SOLO-2, HAWK/HARRIER, GEMINI I/II, and hundreds more) are proper names chosen by sponsors, not decodable acronyms — they're not included below. Gene/mutation codes (e.g., T315I, V600E, G551D), sponsor internal compound codes (e.g., ASTX727, BGB-3111), and author-initial references are also omitted. Look up a specific trial or drug in `README.md`'s entry for that drug instead.
+**What's *not* here:** pivotal-trial codenames (KEYNOTE-024, FLAURA, ENGAGE, SOLO-2, HAWK/HARRIER, GEMINI I/II, and hundreds more) are proper names chosen by sponsors, not decodable acronyms — they're not included below. Gene/mutation codes (e.g., T315I, V600E, G551D), sponsor internal compound codes (e.g., ASTX727, BGB-3111), and author-initial references are also omitted. Look up a specific trial or drug in `census.md`'s entry for that drug instead.
 
 This is a living document — as new entries are added to the census, extend the relevant section below rather than creating a parallel list.
 

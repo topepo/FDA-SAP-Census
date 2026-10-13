@@ -1,6 +1,6 @@
 # Cox proportional-hazards models in Phase 3 trials: trial-level details
 
-Companion to [`Cox_Models_Findings.md`](Cox_Models_Findings.md). One section per census entry whose `README.md` text mentions a Cox / proportional-hazards model, in README order. Each section lists every Cox model found in the entry's Phase 3 (or Phase 2/3) trials, from the README entry and from the FDA reviews, SAPs and publications it links to. Entries whose only Cox use is outside a Phase 3 trial are kept with a short exclusion note.
+Companion to [`findings.md`](findings.md). One section per census entry whose `census/census.md` text mentions a Cox / proportional-hazards model, in README order. Each section lists every Cox model found in the entry's Phase 3 (or Phase 2/3) trials, from the README entry and from the FDA reviews, SAPs and publications it links to. Entries whose only Cox use is outside a Phase 3 trial are kept with a short exclusion note.
 
 Each model ends with **Verbatim specification excerpts**: passages and SAS/R code copied from the source documents. Every excerpt was checked against the downloaded PDF text; excerpts that could only be matched in part (page breaks, tables, garbled text layers) are marked. Page numbers are PDF page indices and can differ from printed page numbers. `[...]` marks omitted text, usually running page headers or footers. Fields reading *Not stated* were not found in any source consulted.
 

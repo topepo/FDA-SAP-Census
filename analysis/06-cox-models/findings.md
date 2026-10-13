@@ -1,15 +1,15 @@
 # Cox proportional-hazards models in Phase 3 trials of the FDA SAP census
 
-**Compiled:** 2026-10-08 · **Scope:** every census entry in `README.md` whose text mentions a Cox / proportional-hazards model (152 of 684 entries), restricted to Cox models fitted in Phase 3 (or Phase 2/3, or pivotal Phase 3b) trials. Kaplan-Meier estimation and log-rank tests on their own are not counted.
+**Compiled:** 2026-10-08 · **Scope:** every census entry in `census/census.md` whose text mentions a Cox / proportional-hazards model (152 of 684 entries), restricted to Cox models fitted in Phase 3 (or Phase 2/3, or pivotal Phase 3b) trials. Kaplan-Meier estimation and log-rank tests on their own are not counted.
 
 **Companion files:**
 
-- [`Cox_Models_Trial_Details.md`](Cox_Models_Trial_Details.md): one section per entry, with each Cox model's specification fields and a **Verbatim specification excerpts** block. Across all entries there are 1,521 quotes and 39 SAS/R/Stata code blocks from the FDA reviews, SAPs, protocols and publications. Excluded entries keep a short note explaining why.
-- [`tables/cox_models.tsv`](tables/cox_models.tsv): one row per model (537 rows: 512 models plus 25 excluded entries). It has the raw extracted fields and the standardized `*_std` columns used for the counts below.
+- [`trial_details.md`](trial_details.md): one section per entry, with each Cox model's specification fields and a **Verbatim specification excerpts** block. Across all entries there are 1,521 quotes and 39 SAS/R/Stata code blocks from the FDA reviews, SAPs, protocols and publications. Excluded entries keep a short note explaining why.
+- [`cox_models.tsv`](cox_models.tsv): one row per model (537 rows: 512 models plus 25 excluded entries). It has the raw extracted fields and the standardized `*_std` columns used for the counts below.
 
 ## How this was built
 
-1. Candidates come from a keyword search of `README.md` (`Cox`, `proportional hazard(s)`, `PROC PHREG`, `coxph`): 152 entries. In 133 of them the hit is in the `Primary analysis:` keyword bullet.
+1. Candidates come from a keyword search of `census/census.md` (`Cox`, `proportional hazard(s)`, `PROC PHREG`, `coxph`): 152 entries. In 133 of them the hit is in the `Primary analysis:` keyword bullet.
 2. Parallel research agents read each README entry. They then downloaded the FDA reviews, SAPs/protocols (including ones posted on ClinicalTrials.gov but missing from the README), and open-access publications, and converted them to text. Scanned or garbled documents were OCR'd or mechanically decoded, and those quotes are labeled as such.
 3. Trial phase was determined from the documents. Cox models used only in Phase 1/2 or single-arm trials, external-control comparisons, exposure–response or animal studies were excluded.
 4. For each model, the agents recorded:
@@ -331,7 +331,7 @@ SAS/R/Stata code blocks are quoted in the details file for these 19 entries:
 
 ## 7. README discrepancies found
 
-None of these have been corrected in `README.md`.
+None of these have been corrected in `census/census.md`.
 
 | Entry | Discrepancy |
 |---|---|
